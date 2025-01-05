@@ -26,21 +26,21 @@ console.log(Math.floor(Math.random() * 10));
 
 //conctenation combine string and number
 
-console.log(32 + " Shaq");
+// console.log(32 + " Shaq");
 
-//parseInt("Str")
-console.log(parseInt("22") + 10);
-console.log(parseInt("22shaq") + 10);
+// //parseInt("Str")
+// console.log(parseInt("22") + 10);
+// console.log(parseInt("22shaq") + 10);
 
-console.log(parseInt("S21haq") + 10); //NaN
-console.log(parseInt("Shaq21") + 10); //NaN
+// console.log(parseInt("S21haq") + 10); //NaN
+// console.log(parseInt("Shaq21") + 10); //NaN
 
 //isNaN  check it is a number
-console.log(isNaN('a'))
-// console.log(isNaN(32)); //false
-// console.log(isNaN(10));
+console.log(isNaN("a"));
+console.log(isNaN(32)); //false
+ console.log(isNaN(10));
 //strings and squence of unicode character
-console.log("Shaq is basketball player".length);
+ console.log("Shaq is basketball player".length);
 console.log("Shaq is basketball player".charAt(0));
 
 /* Booleans 
@@ -52,15 +52,15 @@ var iscorrect = true;
 var isOne = 1;
 var nonEmpty = "word";
 
-//below is false//
+// below is false//
 var iswrong = false;
 var iszero = 0;
 var emptystring = "";
-var isNaN = NaN;
+
 var isundefined = undefined;
 var nonassisgned;
 
-// Array
+Array
 
 var MyArray = [32, 10, "Coke", "Swim"];
 console.log(MyArray[2]);
