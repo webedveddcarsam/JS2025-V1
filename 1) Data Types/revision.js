@@ -36,9 +36,9 @@ console.log(Math.floor(Math.random() * 10));
 // console.log(parseInt("Shaq21") + 10); //NaN
 
 //isNaN  check it is a number
-console.log(isNaN("a"));
-console.log(isNaN(32)); //false
- console.log(isNaN(10));
+// console.log(isNaN("a"));
+// console.log(isNaN(32)); //false
+//  console.log(isNaN(10));
 //strings and squence of unicode character
  console.log("Shaq is basketball player".length);
 console.log("Shaq is basketball player".charAt(0));
