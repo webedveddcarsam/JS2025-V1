@@ -90,6 +90,7 @@ var laptop7=new laptopConstructor("HP",14,"i7",32,"512G","No",11,"YES");
 var laptop8=new laptopConstructor("HP",15,"i7",64,"1T","No",11,"YES");
 
 console.log(laptop1);
+console.log(laptop2);
 
 
 
