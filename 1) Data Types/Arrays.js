@@ -65,7 +65,8 @@ var challengeArray = [
   [1, 2],
   { 1: "Chris" },
 ];
-// Console.log("");
+console.log("");
+
 var chall1 = challengeArray.slice(2);
 console.log(chall1);
 
