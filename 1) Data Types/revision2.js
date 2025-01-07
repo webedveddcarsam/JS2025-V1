@@ -19,6 +19,10 @@ function laptopConstructor(
   this.compcamera = camera;
   this.compos = OS;
   this.compwireless = wireless;
+
+  this.showStats = function(){
+    console.log("Show stats function");
+  }
 }
 
 var laptop1 = new laptopConstructor(
@@ -86,3 +90,5 @@ var laptop8 = new laptopConstructor("HP", 15, "i7", 64, "1T", "No", 11, "YES");
 
 console.log(laptop1);
 console.log(laptop2);
+
+laptop1.showStats()

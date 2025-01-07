@@ -60,7 +60,7 @@ var emptystring = "";
 var isundefined = undefined;
 var nonassisgned;
 
-Array
+// Array
 
 var MyArray = [32, 10, "Coke", "Swim"];
 console.log(MyArray[2]);
