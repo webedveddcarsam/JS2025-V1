@@ -47,3 +47,43 @@ function sayHi() {
 }
 
 sayHi();
+
+
+let count = 1
+
+function increment(){
+    // count = count + 1
+    // count++
+    count +=1
+}
+
+increment()
+increment()
+increment()
+increment()
+increment()
+
+console.log(count);
+
+
+/**
+ * Make a let variable store in a variable
+ * make a function to modify the name
+ * run the function 
+ * clg your name
+ */
+
+let myName = "Apple"
+
+function nameChanger(){
+    myName = "Eddie"
+}
+nameChanger()
+
+console.log(myName);
+
+/**
+ * HW 
+ * Research on Hoisting, how it is done in variables
+ * Show me 3 practical exqamples of hoisting
+ */
