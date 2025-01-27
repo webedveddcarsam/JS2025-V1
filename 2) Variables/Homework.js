@@ -6,6 +6,7 @@
 
 
 //example 1
+
 console.log(car);
 var car =12
 
