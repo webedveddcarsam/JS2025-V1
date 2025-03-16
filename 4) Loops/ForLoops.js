@@ -15,7 +15,16 @@
 // }
 
 
-for(var i= 0; i <=20; i++){
+for(var i= 0 ; i <=100 ; i++){
     // console.log(i);
     console.log("Eddie is great", i);
 }
+
+
+for( var s=1; s <=5 ; s++){
+    console.log(s);
+}
+
+
+
+

@@ -20,51 +20,57 @@
 
 // // 2nd approach
 
-// function MenConstructor(name, mortalityStatus){
+// function MenConstructor(name, mortalityStatus ){
 //     this.manName = name
 //     this.status = mortalityStatus
+//     this.sex = "Male"
 // }
 
-// var man1 = new MenConstructor("Eddie", true)
-// var man2 = new MenConstructor("Socrates", true)
-// var man3 = new MenConstructor("Ali", true)
+function MenConstructor(name) {
+  this.manName = name;
+  this.status = true;
+  this.sex = "Male";
+}
+var man1 = new MenConstructor("Eddie");
+var man2 = new MenConstructor("Socrates");
+var man3 = new MenConstructor("Ali");
+
+// man1.status = false;
+console.log(man1);
 
 // console.log(man1);
 // console.log(man2);
 
-// if(man2.status === true){
-//     console.log("Man is mortal");
-//     console.log("Checking for name ....");
+if(man2.status === true){
+    console.log("Man is mortal");
+    console.log("Checking for name ....");
 
-//     if(man2.manName === "Socrates"){
-//         console.log("Socrates found");
-//     } else {
-//         console.log("Man is mortal but not Socrates");
-//     }
-// }
+    if(man2.manName === "Socrates"){
+        console.log("Socrates found");
+    } else {
+        console.log("Man is mortal but not Socrates");
+    }
+}
 
 // // 3rd Approach
 
-var man1 = { manName: "Socrates", mortality: true };
-var man2 = { manName: "Huzaifa", mortality: true };
-var man3 = { manName: "Eddie", mortality: true };
-var alien = { manName: "Alien 51", mortality: false };
+// var man1 = { manName: "Socrates", mortality: true };
+// var man2 = { manName: "Huzaifa", mortality: true };
+// var man3 = { manName: "Eddie", mortality: true };
+// var alien = { manName: "Alien 51", mortality: false };
 
-if (man1.mortality === true) {
-  console.log("Man is mortal");
-  console.log("Checking name now....");
-  
-    if(man1.manName === "Socrates"){
-        console.log("Socrates found");
-    } else {
-        console.log("Not Socrates");
-    }
+// if (man1.mortality === true) {
+//   console.log("Man is mortal");
+//   console.log("Checking name now....");
 
-} else {
-  console.log("Not mortal");
-}
-
-
+//   if (man1.manName === "Socrates") {
+//     console.log("Socrates found");
+//   } else {
+//     console.log("Not Socrates");
+//   }
+// } else {
+//   console.log("Not mortal");
+// }
 
 // // Homework **
 
@@ -74,7 +80,3 @@ if (man1.mortality === true) {
  * The cake is either Vanilla or Chocolate
  * If its not Vanilla therefore its Chocolate
  */
-
-
-
-

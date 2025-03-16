@@ -1,0 +1,61 @@
+// function DMIConstructor(BMI) {
+//   this.myBMI = BMI;
+
+//   if (BMI >= 18.5 && BMI <= 24.5) {
+//     this.bmiStatus = "I am health"
+//   } else {
+//     this.bmiStatus ="unhealth"
+//   }
+
+// }
+
+// var pp1 = new DMIConstructor(20); // unhealth
+// console.log(pp1);
+
+// function CokeContructor(softdrink) {
+//   this.softdrink = softdrink;
+
+//   if (softdrink === "Coke") {
+//     this.type = "Coca Cola";
+//   } else {
+//     this.type = "Pespi";
+//   }
+// }
+
+// var men1 = new CokeContructor("Coke");
+// var men2 = new CokeContructor("Pespi");
+
+// console.log(men2.type);
+// console.log(men1.type);
+
+// if (men1.type === "Coca Cola") {
+//   console.log("Coca Cola");
+// } else {
+//   console.log("Pespi");
+// }
+
+// // Huzaifa's Approach for BMI constructor
+
+// // 1st step: we made the constructor to make objects for us
+function BMIConstructor(name, mass) {
+  this.personName = name;
+  this.bodyMass = mass;
+}
+
+let person1 = new BMIConstructor("Eddie", 22);
+let person2 = new BMIConstructor("Huzaifa", 23);
+let person3 = new BMIConstructor("Bob", 33);
+
+console.log(person1);
+
+// // 2nd step: Make a function to test the logic if the person is healthy or not
+
+function healthChecker(personObj) {
+  console.log(personObj.bodyMass);
+  if (personObj.bodyMass >= 18.5 && personObj.bodyMass <= 24.5) {
+    console.log("The person is health");
+  } else {
+    console.log("The person is unhealthy");
+  }
+}
+healthChecker(person1);
