@@ -25,7 +25,7 @@
 
 function sayHi(firstName, Surname) {
   console.log("Hi", firstName, Surname);
-}
+}Console.log("");
 sayHi("Michael", "Jordan");
 sayHi("Shaq", "Oneal");
 

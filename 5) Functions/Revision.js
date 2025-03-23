@@ -21,7 +21,7 @@ fullname("Michael", "Jordan", 23);
 fullname("Pippen", "Scottie", 33);
 
 function xxxnumber(x) {
-  const result = x ** 2;
+  const result = x ** 2; // 2 ^ 2
   console.log(x + " is tripble number of " + result);
 }
 xxxnumber(3);
@@ -35,6 +35,17 @@ function squareAdder(x, y) {
 
 squareAdder(3, 4);
 squareAdder(1, 5);
+squareAdder(-10,10)
+
+
+function powerUp(constant, exponent){
+    const result = constant ** exponent;
+    console.log(constant + " to the power of " + exponent + " is " + result);
+}
+
+
+powerUp(2,3);
+
 
 
 let myArray = [1,3,5,7,9];
