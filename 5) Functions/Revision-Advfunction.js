@@ -25,7 +25,7 @@ console.log(myArray);
 console.log(myArray1);
 console.log(myArray2);
 
-//exercise 1
+//exercise 4
 let sayGM = (firstName1, lastname1) =>
   console.log("Good Morning", firstName1 + " " + lastname1);
 
