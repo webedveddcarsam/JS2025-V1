@@ -85,10 +85,39 @@ let mynameB = {
   last: "Oneal",
 };
 
-function changesurname(firstN,lastN) {
+function changesurname(firstN, lastN) {
   lastN["last"] = firstN;
   return lastN;
 }
-console.log(changesurname("Lee",mynameB));
+console.log(changesurname("Lee", mynameB));
 
+function sqandmult(sum1, sum2) {
+  let mainnum = "First function";
+
+  function sq(sum1) {
+    let secnum = "Second function";
+    console.log(secnum);
+    return sum1 * sum1;
+  }
+
+  function multer(sum2) {
+    return sum2 * 20;
+  }
+  return sq(sum1) + multer(sum2);
+}
+console.log(sqandmult(2, 10));
+
+function retirement(f1,last1,age) {
+  function fullN(f1, last1) {
+    return f1 + last1;
+  }
+  function born(age) {
+   let rage = 2025 - born(age);
+return age
+
+  }
+  return fullN(f1,last1) + born(age);
+}
+
+console.log(retirement("Ed", "Lee",1900));
 
