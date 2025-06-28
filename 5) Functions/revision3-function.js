@@ -85,11 +85,21 @@ let mynameB = {
   last: "Oneal",
 };
 
-function changesurname(firstN, lastN) {
-  lastN["last"] = firstN;
-  return lastN;
+// function changesurname(firstN, lastN) {
+//   lastN["last"] = lastN;
+//   return firstN + " " + lastN;
+// }
+// // console.log(changesurname(mynameB.first, mynameB.last));
+// console.log(changesurname("Lee", "Lee"));
+
+function nameChanger(objName, key, value) {
+  return (objName[key] = value);
 }
-console.log(changesurname("Lee", mynameB));
+
+nameChanger(mynameB, "last", "Lee");
+
+
+console.log(mynameB);
 
 function sqandmult(sum1, sum2) {
   let mainnum = "First function";
@@ -106,5 +116,3 @@ function sqandmult(sum1, sum2) {
   return sq(sum1) + multer(sum2);
 }
 console.log(sqandmult(2, 10));
-
-
